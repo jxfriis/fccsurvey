@@ -1,0 +1,47 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(155deg, rgba(58,58,158,0.8), rgba(136,136,206,0.7) ), url(https://images.unsplash.com/photo-1694259842544-48a6dd6de7bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+    color: white;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  h1, p{
+    text-align: center;
+  }
+  
+  label{
+    width: 100%;
+  }
+  
+  #survey-form{
+    background-color: rgba(27,27,50,0.8);
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 2.5rem;
+  }
+  
+  input{
+    width: 100%;
+    height: 30px;
+    border-radius: 10px;
+  }
+
+  p{
+    font-style: italic;
+  }
+
+  select{
+    width: 100%;
+    height: 35px;
+  }
+
+  textarea{
+    width: 100%;
+    margin-bottom: 20px;
+  }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+    <link rel="stylesheet" href=styles.css>
+  </head>
+  <body>
+    <h1 id="title">Julius Weather Survey</h1>
+    <p id="description">I just wanna know how the weather is where you are!</p>
+    <form id="survey-form">
+      <label for="name" id="name-label"><h2>What's your name?</h2><input id="name" type="text" placeholder="Enter your name ..." required></label>
+      <label for="email" id="email-label"><h2>What's your e-mail?</h2><input id="email" type="email" placeholder="Enter your e-mail ..." required></label>
+      <label for="number" id="number-label"><h2>How good is the weather where you are from 1-10?</h2> <input id="number" type="number" min="1" max="10" placeholder="Enter a number from 1-10 ..."></label>
+      <h2>What's your mood right now?</h2>
+      <select id="dropdown">
+        <option>Select one</option>
+        <option>Happy</option>
+        <option>Sad</option>
+      </select>
+      <h2>Favorite season?</h2>
+      <label><input type="radio" name="type-weather" id="Summer" value="summer">Summer</label>
+      <label><input type="radio" name="type-weather" id="Winter" value="winter">Winter</label>
+      <h2>Where would you want to live?</h2>
+      <label><input type="checkbox" name="place" value="Europe">Europe</label>
+      <label><input type="checkbox" name="place" value="America">America</label>
+      <label><input type="checkbox" name="place" value="Asia">Asia</label>
+      <label><input type="checkbox" name="place" value="Middle East">Middle East</label>
+      <h2>Want to add more?</h2>
+      <textarea></textarea>
+      <input type="submit" id="submit"></input>
+    </form>
+  </body>
